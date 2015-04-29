@@ -1,0 +1,27 @@
+{
+	"name": "GitBot",
+	"version": "0.0.1",
+	"description": "GitBot – the simple github IRC bot.",
+	"author": "Dane Everitt <dane@daneeveritt.com>",
+	"scripts": {
+		"start": "forever start lib/gitbot.js",
+		"stop": "forever stop lib/gitbot.js"
+	},
+	"main": "lib/gitbot.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PufferPanel/GitBot"
+	},
+	"bugs": {
+		"url": "https://github.com/PufferPanel/GitBot/issues"
+	},
+	"dependencies": {
+		"async": "0.9.*",
+		"fs-extra": "0.18.*",
+		"forever": "0.14.*",
+		"irc": "0.3.12",
+		"restify": "3.0.1"
+	},
+	"private": true,
+	"license": "GPLv3"
+}
