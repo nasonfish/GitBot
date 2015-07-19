@@ -22,6 +22,7 @@
 		"gi": "1.0.0",
 		"ipaddr.js": "1.0.1",
 		"irc": "0.3.12",
+		"request": "2.55.*",
 		"restify": "3.0.1"
 	},
 	"private": true,
