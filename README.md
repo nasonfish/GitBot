@@ -9,7 +9,8 @@ You will need to create a `config.json` file in the root directory where this is
 		"channel": "#channel",
 		"server": "irc.freenode.net",
 		"botname": "MyBot"
-	}
+	},
+	"main_repository": "PufferPanel/GitBot"
 }
 ```
 
